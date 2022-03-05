@@ -25,5 +25,5 @@ end
 Capybara.configure do |c|
   c.default_driver = @driver
   c.default_max_wait_time = 10
-  c.app_host = "http://kabug.qaninja.io"
+  c.app_host = "http://kabug.qa.ninja"
 end
